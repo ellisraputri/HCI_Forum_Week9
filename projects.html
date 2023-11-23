@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Projects)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .footer{
+            margin-top: 30px;
+        }
+        .header h1{
+            text-shadow: 2px 2px 0 #444;
+        }
+        .row img{
+            max-width:350px;
+            width:100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .column1,.column2, .column3{
+            max-width: 100%;
+        }
+        .nav{
+            font-weight: bold;
+            background-color: aliceblue;
+        }
+        .addTop{
+            height: 200px;
+        }
+        @media screen and (max-width:800px){
+            .column1, .column2, .column3{
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body class="w3-pale-blue">
+    <div class="header w3-container w3-light-blue header1">
+        <h1 class=" w3-monospace w3-center w3-text-white">
+            <b>My Portfolio
+            <span class="w3-text info">(<i class="fa-regular fa-folder-open"></i>)</span>
+            </b></h1>
+    </div>
+    
+    <div class="w3-container w3-margin-bottom w3-blue-gray w3-padding-small">
+        <a href="projects.html" class="navv w3-bar-item w3-button w3-mobile w3-right w3-light-gray"><b>Projects</b></a>
+        <a href="interests1.html" class="navv w3-bar-item w3-button w3-mobile w3-right ">Interests</a>
+        <a href="education.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Education</a>
+        <a href="index.html" class="navv w3-bar-item w3-button w3-mobile w3-right ">General</a>
+    </div>
+    
+    <div class="row w3-cell-row w3-container">
+        <div class="column1 w3-container w3-cell w3-mobile w3-padding w3-pale-green w3-card-4 
+        w3-round-xlarge w3-margin-top w3-center w3-margin-bottom">
+            <figure>
+                <div class="w3-display-container w3-hover-sepia">
+                    <img src="pameran.jpg" alt="Extracurricular Exhibition SMAKYS" title="Extracurricular Exhibition SMAKYS"
+                        class="w3-border w3-padding w3-white"/> <br/>
+                    <div class="w3-display-middle w3-display-hover">
+                        <div class="w3-container w3-light-gray w3-monospace w3-round-xlarge">
+                        June 11st<br>2022</div>
+                    </div>
+                </div>
+            
+                <div class="w3-display-container w3-hover-sepia">
+                    <img src="pameran1.jpg" alt="Extracurricular Exhibition SMAKYS" title="Extracurricular Exhibition SMAKYS" 
+                        class="w3-margin-top w3-border w3-padding w3-white"/> <br/>
+                    <div class="w3-display-middle w3-display-hover">
+                        <div class="w3-container w3-light-gray w3-monospace w3-round-xlarge">
+                        June 11st<br>2022</div>
+                    </div>
+                </div> 
+                <figcaption>
+                    <p class="w3-large"><b>Extracurricular Exhibition SMAKYS </b> </p>
+                    <button class="button1 w3-btn w3-margin w3-padding w3-white w3-card-2">Show Details</button>
+                    <div class="pr1 w3-panel w3-white w3-topbar w3-bottombar w3-border-green">
+                        <p class="w3-medium">
+                            - Helped prepare things to be exhibited. <br>
+                            - Decided on decorations and put them up. <br>
+                            - Maintained KIR Sains stand and explain things on display to visitors.
+                        </p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="column2 w3-container w3-cell w3-mobile w3-padding w3-pale-yellow w3-card-4 
+        w3-round-xlarge w3-margin-top w3-center w3-margin-bottom">
+        <figure>
+            <div class="w3-display-container w3-hover-grayscale">
+                <img src="kecapi.jpeg" alt="KECAPI" title="KECAPI Poster" 
+                    class="w3-border w3-padding w3-white"/>
+                <div class="w3-display-middle w3-display-hover">
+                    <div class="w3-container w3-light-gray w3-monospace w3-round-xlarge">
+                    July 22nd 2023<br> - <br>August 17th 2023</div>
+                </div>
+            </div> 
+            
+            <figcaption>
+                <p class="w3-large"><b>Kompetisi Cerpen Penuh Inspirasi (KECAPI)</b> <br></p>
+                <button class="button2 w3-btn w3-margin w3-padding w3-white w3-card-2">Show Details</button>
+                <div class="pr2 w3-panel w3-white w3-topbar w3-bottombar w3-border-amber">
+                    <p class="w3-medium">
+                        - Created and revised the competition's budget plans. <br>
+                        - Revised the sponsorship proposal. <br>
+                        - Contacted sponsors for the event through e-mail and WhatsApp.
+                    </p>
+                </div>
+            </figcaption>
+        </figure>
+        </div>
+
+        <div class="column3 w3-container w3-cell w3-mobile w3-padding w3-pale-red w3-card-4 
+        w3-round-xlarge w3-margin-top w3-center w3-margin-bottom">
+        <figure>
+            <div class="w3-display-container w3-hover-opacity">
+                <img src="tryout osnp.jpeg" alt="Tryout OSNP SMA" 
+                    title="Tryout OSNP SMA Poster" class="w3-border w3-padding w3-white"/>
+                <div class="w3-display-middle w3-display-hover">
+                    <div class="w3-container w3-light-gray w3-monospace w3-round-xlarge">
+                    May 25th 2023<br> - <br>June 2nd 2023</div>
+                </div>
+            </div> 
+            
+            <figcaption>
+                <p class="w3-large"><b>Tryout for National Science Olympiad at 
+                Provincial Level for High School Level 2023</b> <br></p>
+                <button class="button3 w3-btn w3-margin w3-padding w3-white w3-card-2">Show Details
+                </button>
+                <div class="pr3 w3-panel w3-white w3-topbar w3-bottombar w3-border-pink">
+                    <p class="w3-medium">
+                        - Revised and edited the event's guidebook. <br>
+                        - Uploaded exam questions and answers to the CBT application. <br>
+                        - Sorted and organized exam questions accordingly, to ease their distribution.   
+                    </p>
+                </div>
+                
+                
+            </figcaption>
+        </figure>
+        </div> 
+        </div>
+
+    </div>
+
+    <div class="addTop"></div>
+    <div class="footer w3-blue-gray w3-padding-small w3-center">
+        <p><b>Social Media</b></p>
+        <div class="w3-cell-row w3-margin-bottom">
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.facebook.com/ellis.raputri/"><img src="facebook logo.png"alt="facebook logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.instagram.com/ellisraputri/"><img src="instagram logo.png"alt="instagram logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.linkedin.com/in/ellis-raputri-826a78203/"><img src="linkedin logo.png"alt="linkedin logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://line.me/ti/p/lJ7KnGcx3U"><img src="line logo.png"alt="line logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://wa.me/62895385069010"><img src="whatsapp logo.png"alt="whatsapp logo" class="foot"/></a>
+        </figure>
+        </div>
+    </div>
+</body>
+</html>

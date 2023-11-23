@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Interests)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="interest.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .footer{
+            margin-top: 30px;
+        }
+        .header h1{
+            text-shadow: 2px 2px 0 #444;
+        }
+        .column1,.column2{
+            max-width: 100%;
+            min-width:50%;
+        }
+        .column1 img, .column2 img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .column1 img{
+            min-width:140px;
+            max-width:180px;
+        }
+        .column2 img{
+            min-width:100px;
+            max-width:150px;
+        }
+        .nav{
+            font-weight: bold;
+            background-color: aliceblue;
+        }
+        .addTop{
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="w3-pale-blue">
+    <div class="header w3-container w3-light-blue header1">
+        <h1 class=" w3-monospace w3-center w3-text-white">
+            <b>My Portfolio
+            <span class="w3-text info">(<i class="fa-solid fa-heart-circle-bolt"></i>)</span>
+            </b></h1>
+    </div>
+
+    <div class="w3-container w3-margin-bottom w3-blue-gray w3-padding-small">
+        <a href="projects.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Projects</a>
+        <a href="interests1.html" class="navv w3-bar-item w3-button w3-mobile w3-right w3-light-gray"><b>Interests</b></a>
+        <a href="education.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Education</a>
+        <a href="index.html" class="navv w3-bar-item w3-button w3-mobile w3-right ">General</a>
+    </div>
+
+    <div class="row w3-cell-row w3-container">
+        <div class="column1 w3-container w3-cell w3-card-4 w3-white w3-mobile w3-padding 
+            w3-round-xlarge w3-margin-bottom w3-center">
+            <p class="w3-xlarge"><b>My Favorite Books</b></p>
+            <p>Hover over to see details!</p>
+            <div class="w3-center">
+            <figure class="holmes">
+                <div class="w3-display-container w3-hover-opacity">
+                    <img src="Sherlock Holmes.jpg"alt="Sherlock Holmes Book" class="w3-container w3-cell w3-center" />
+                    <div class="w3-display-middle w3-display-hover"><a href="https://en.wikipedia.org/wiki/A_Study_in_Scarlet"
+                        <button class="w3-button w3-red w3-small">
+                        A Study <br>in Scarlet</button></a>
+                    </div>
+                </div>
+                <figcaption class="w3-large">Sherlock Holmes</figcaption>
+                <p class="w3-margin-bottom">
+                    <b>Author:</b> Sir Arthur Conan Doyle<br>
+                    <b>First book:</b> 1887<br>
+                    <b>Genre:</b> Detective, Mystery, Crime Fiction 
+                    <br><br><br>
+                </p>
+                <br>
+            </figure>
+            <figure class="conan">
+                <div class="w3-display-container w3-hover-opacity">
+                    <img src="detective conan.jpg" alt="Detective Conan Book" class="w3-container w3-cell w3-center w3-margin-top"/>
+                    <div class="w3-display-middle w3-display-hover"><a href="https://www.detectiveconanworld.com/wiki/Volume_1"
+                        <button class="w3-button w3-brown w3-small">
+                        First Volume of <br>Detective Conan</button></a>
+                    </div>
+                </div>
+                <figcaption class="w3-large">Detective Conan</figcaption>
+                <p class="w3-margin-bottom">
+                    <b>Author:</b> Aoyama Gosho<br>
+                    <b>First book:</b> 1994<br>
+                    <b>Genre:</b> Detective, Mystery, Shonen
+                    <br><br><br>
+                </p>
+            </figure>
+            </div>
+        </div>
+
+        <div class="column2 w3-container w3-cell w3-mobile w3-padding w3-white w3-card-4 
+            w3-round-xlarge w3-margin-top w3-center">
+            <p class="w3-xlarge"><b>The Games I Played</b></p>
+            <p>Hover over to see details!</p>
+            <div class="w3-center">
+            <figure class="genshin">
+                <div class="w3-display-container w3-hover-opacity">
+                    <img src="genshin impact.jpg"alt="Genshin Impact Logo" class="w3-container w3-center"/>
+                    <div class="w3-display-middle w3-display-hover"><a href="genshin_hoyolab.png"
+                        <button class="w3-button w3-amber w3-small">
+                        Days active:<br>838 Days</button></a>
+                    </div>
+                </div>
+                <figcaption class="w3-large w3-margin-bottom">Genshin Impact</figcaption>
+                <p>
+                    <b>Developer:</b> miHoYo<br>
+                    <b>Initial release date:</b> September 28, 2020<br>
+                    <b>Genre:</b> Action, Role-playing<br><br><br>
+                </p>
+            </figure>
+
+            <figure class="honkai">
+                <div class="w3-display-container w3-hover-opacity">
+                    <img src="honkai impact.png"alt="Honkai Impact 3rd Logo" class="w3-container w3-center w3-margin-top"/>
+                    <div class="w3-display-middle w3-display-hover"><a href="honkai_hoyolab.jpg"
+                        <button class="w3-button w3-yellow w3-small">
+                        Days active:<br>162 Days</button></a>
+                    </div>
+                </div>
+                <figcaption class="w3-large w3-margin-bottom">Honkai Impact 3rd</figcaption>
+                <p>
+                    <b>Developer:</b> miHoYo<br>
+                    <b>Initial release date:</b> October 14, 2016<br>
+                    <b>Genre:</b> Action game, Role-playing, Fighting game, Adventure<br><br><br>
+                </p>
+            </figure>
+
+            <figure class="hsr">
+                <div class="w3-display-container w3-hover-opacity">
+                    <img src="honkai star rail.png" alt="Honkai Star Rail Logo" class="w3-container w3-center w3-margin-top"/>
+                    <div class="w3-display-middle w3-display-hover"><a href="starrail_hoyolab.jpg"
+                        <button class="w3-button w3-purple w3-small">
+                        Days active:<br>73 Days</button></a>
+                    </div>
+                </div>
+                <figcaption class="w3-large w3-margin-bottom">Honkai Star Rail</figcaption>
+                <p>
+                    <b>Developer:</b> miHoYo<br>
+                    <b>Initial release date:</b> April 26, 2023<br>
+                    <b>Genre:</b> Tactical role-playing game, Turn-based game<br><br><br>
+                </p>
+            </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="addTop"></div>
+
+    <div class="footer w3-blue-gray w3-padding-small w3-center">
+        <p><b>Social Media</b></p>
+        <div class="w3-cell-row w3-margin-bottom">
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.facebook.com/ellis.raputri/"><img src="facebook logo.png"alt="facebook logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.instagram.com/ellisraputri/"><img src="instagram logo.png"alt="instagram logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.linkedin.com/in/ellis-raputri-826a78203/"><img src="linkedin logo.png"alt="linkedin logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://line.me/ti/p/lJ7KnGcx3U"><img src="line logo.png"alt="line logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://wa.me/62895385069010"><img src="whatsapp logo.png"alt="whatsapp logo" class="foot"/></a>
+        </figure>
+        </div>
+    </div>
+</body>
+</html>

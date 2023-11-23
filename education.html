@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (Projects)</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="edu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        .footer{
+            margin-top: 30px;
+        }
+        .column1 img{
+            width:40%;
+            max-width:200px;
+        }
+        .column2 img{
+            width:20%;
+            max-width:80px;
+        }
+        #yos{
+            max-width: 120px;
+        }
+        #binus{
+            min-width:190px;
+        }
+        .column1,.column2{
+            max-width: 100%;
+        }
+        .header h1{
+            text-shadow: 2px 2px 0 #444;
+        }
+        .nav{
+            font-weight: bold;
+            background-color: aliceblue;
+        }
+        .addTop{
+            height: 200px;
+        }
+    </style>
+</head>
+<body class="w3-pale-blue">
+    <div class="header w3-container w3-light-blue ">
+        <h1 class="w3-monospace w3-center w3-text-white header1"><b>My Portfolio
+            <span class="w3-text info">(<i class="fa-solid fa-school"></i>)</span>
+            </b></h1>
+    </div>
+    
+    <div class="w3-container w3-margin-bottom w3-blue-gray w3-padding-small">
+        <a href="projects.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Projects</a>
+        <a href="interests1.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Interests</a>
+        <a href="education.html" class="navv w3-bar-item w3-button w3-mobile w3-right w3-light-gray"><b>Education</b></a>
+        <a href="index.html" class="navv w3-bar-item w3-button w3-mobile w3-right ">General</a>
+    </div>
+    
+    <div class="row w3-cell-row w3-container">
+        <div class="column1 w3-container w3-cell w3-card-4 w3-white w3-mobile w3-padding-16 
+            w3-round-xlarge w3-margin-bottom w3-center">
+            <p class="w3-xlarge"><b>Education</b></p>
+            <p>Hover over the list to see the instantion descriptions!</p>
+                <p class="w3-large sdyos">1. 
+                    <a href="https://www.sdyossudarsobatam.sch.id/?m=0" class="w3-hover-text-cyan">SD Yos Sudarso Batam</a>
+                    <div class="sdyosi w3-container w3-medium">
+                        Location: Jln. Dang Merdu No.05 Teluk Tering, Batam Kota, Kepulauan Riau <br>
+                        Accreditation: A <br>
+                        Type: Private School<br>
+                        <img src="sdyos.jpg">
+                    </div>
+                </p>
+                <p class="w3-large smpyos">2. 
+                    <a href="http://tunaskarya.org/sekolah/profile?smp-katolik-yos-sudarso-batam&id=smp-20" class="w3-hover-text-cyan">SMP Yos Sudarso Batam</a>
+                    <div class="smpyosi w3-container w3-medium">
+                        Location: Jln. Dang Merdu No.05 Teluk Tering, Batam Kota, Kepulauan Riau <br>
+                        Accreditation: A <br>
+                        Type: Private School<br>
+                        <img src="smpyos.jpg">
+                    </div>
+                </p>
+                <p class="w3-large smayos">3. 
+                    <a href="https://www.smakyossudarsobatam.sch.id/" class="w3-hover-text-cyan">SMA Yos Sudarso Batam</a>
+                    <div class="smayosi w3-container w3-medium">
+                        Location: Jln. Dang Merdu No.05 Teluk Tering, Batam Kota, Kepulauan Riau <br>
+                        Accreditation: A <br>
+                        Type: Private School<br>
+                        <img src="smayos.jpg">
+                    </div>
+                </p>
+                <p class="w3-large binus">4. 
+                    <a href="https://binus.ac.id/" class="w3-hover-text-cyan">Binus University</a>
+                    <div class="binusi w3-container w3-medium">
+                        Location: Fx Sudirman F6, Jl. Pintu Satu Senayan No.3, Gelora, Kecamatan Tanah Abang, Daerah Khusus Ibukota Jakarta <br>
+                        Accreditation: A <br>
+                        Type: Private School<br>
+                        <img src="binusinter.jpg">
+                    </div>
+                </p>
+                <img src="logo yos.png" alt="Yos Sudarso Logo" title="Yos Sudarso" id="yos" class="w3-margin w3-hover-opacity">
+                <img src="logo binus.png" alt="Binus International Logo" id="binus" title="Binus International" class="w3-margin w3-hover-opacity">
+        </div>
+
+        <div class="column2 w3-container w3-cell w3-mobile w3-padding-16 w3-white w3-card-4 
+            w3-round-xlarge w3-margin-top w3-center">
+            <p class="w3-xlarge"><b>Programming Skills</b></p>
+            <p>Click on the checkbox to see the interactive things!</p>
+                <ul class="w3-ul w3-margin-bottom">
+                    <li class="w3-large w3-hover-light-gray cli"><label ><input type="checkbox" checked> Basic C</label></li>
+                    <li class="w3-large w3-hover-light-gray cppli"><label><input type="checkbox" checked> Basic C++</label></li> 
+                    <li class="w3-large w3-hover-light-gray htmli"><label><input type="checkbox" checked> Basic HTML</label></li>
+                    <li class="w3-large w3-hover-light-gray cssli"><label><input type="checkbox" checked> Basic CSS</label></li>
+                </ul>
+                
+            <div class="w3-margin-top">
+                <img src="C.png" alt="C logo" title="C" class="c w3-margin w3-hover-opacity">
+                <img src="C++.png" alt="C++ logo" title="C++" class="cpp w3-margin w3-hover-opacity">
+                <img src="html.png" alt="HTML logo" title="HTML" class="htm w3-margin w3-hover-opacity">
+                <img src="css.png" alt="CSS logo" title="CSS" class="css w3-margin w3-hover-opacity">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="addTop"></div>
+
+    <div class="footer w3-blue-gray w3-padding-small w3-center">
+        <p><b>Social Media</b></p>
+        <div class="w3-cell-row w3-margin-bottom">
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.facebook.com/ellis.raputri/"><img src="facebook logo.png"alt="facebook logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.instagram.com/ellisraputri/"><img src="instagram logo.png"alt="instagram logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.linkedin.com/in/ellis-raputri-826a78203/"><img src="linkedin logo.png"alt="linkedin logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://line.me/ti/p/lJ7KnGcx3U"><img src="line logo.png"alt="line logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://wa.me/62895385069010"><img src="whatsapp logo.png"alt="whatsapp logo" class="foot"/></a>
+        </figure>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (General Information)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        .content img{
+            width:80%;
+            max-width:200px;
+        }
+        .card{
+            width:60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .addTop{
+            height: 200px;
+        }
+        .header h1{
+            text-shadow: 2px 2px 0 #444;
+        }
+        .nav{
+            font-weight: bold;
+            background-color: aliceblue;
+        }
+        .con1{
+            height: 440px;
+        }
+        .con11{
+            height: 250px;
+        }
+        .button1{
+            background-color: rgb(201, 252, 169);
+        }
+        .but2{
+            background-color: lightpink;
+        }
+        .button2{
+            margin-top: -15px;
+            background-color: rgb(201, 252, 169);
+        }
+        .button3{
+            margin-top: -15px;
+            background-color: lightpink;
+        }
+
+        @media (max-width:768px){
+            .con1, .con11{
+                height:fit-content;
+            }
+        }
+    </style>
+
+</head>
+<body class="header w3-pale-blue">
+    <div class="w3-container w3-light-blue header1">
+        <h1 class="w3-monospace w3-center w3-text-white">
+            <b>My Portfolio
+            <span class="w3-text info">(<i class="fa-solid fa-circle-info"></i>)</span>
+            </b></h1>
+    </div>
+    
+    <div class="w3-container w3-margin-bottom w3-blue-gray w3-padding-small">
+        <a href="projects.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Projects</a>
+        <a href="interests1.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Interests</a>
+        <a href="education.html" class="navv w3-bar-item w3-button w3-mobile w3-right">Education</a>
+        <a href="index.html" class="navv w3-bar-item w3-button w3-mobile w3-right w3-light-gray"><b>General</b></a>
+    </div>
+
+    <div class="content w3-center w3-content">
+        <div class="con1 card w3-card-4 w3-container w3-white w3-center">
+            <div class="con11">
+                <img src="profile ellis.jpg" alt="Ellis Raputri" title="Ellis Raputri" class="pic1 w3-image w3-margin-top w3-border w3-padding w3-hover-border-black">
+                <img src="Bali 159.jpg" alt="Ellis Raputri" class="pic2 w3-image w3-margin-top w3-border w3-padding w3-hover-border-black">
+            </div>
+            <div class="w3-container">
+                <p class="w3-xlarge"><b>Ellis Raputri</b></p>
+                <p class="w3-large">L1AC - 2702298116</p>
+                <p class="w3-large hoverinfo">Hover the picture to see another picture!</p>
+            </div>
+        </div>
+        
+        <button class="button1 w3-btn w3-container w3-card-2 w3-margin w3-padding">Click to open me!</button>
+        <div id="Demo" class="w3-container w3-animate-zoom">
+            <div class="box w3-panel w3-white w3-leftbar w3-rightbar w3-border-gray w3-margin ">
+            <p class="w3-medium w3-padding-16">
+                Hi! I'm Ellis, a computer science undergraduate at Binus International. 
+                I'm a big fan of mystery things and I enjoy reading in my spare time.
+                I'm also a game lover, but I don't play many games as I'm an ambitious person who strives for the best in every game that I play.
+                Moreover, I'm just a regular college student who doesn't do many things every day. 
+                Nice to meet you and welcome to my portfolio!
+            </p>
+            </div>
+            <br><br>
+
+            <div class="funfact">
+            <p class="w3-xlarge ques"><b>Do you want to know a fun fact about me?</b></p>
+            <button class="button2 w3-btn w3-card-2 w3-margin w3-padding">Yes</button>
+            <button class="button3 w3-btn w3-card-2 w3-margin w3-padding">No</button>
+            
+        
+            
+            <div class="fun card w3-card-4 w3-container w3-pale-yellow w3-center w3-animate-zoom">
+                <h2 class="w3-xlarge w3-cursive"><b>FUN FACT!</b></h2>
+                    <p class="w3-large">
+                        I was a part of Biology Olympiad Team in the past.
+                        And, I was in charge of it for two years!
+                        <i class="fa-regular fa-face-laugh"></i>
+                    </p>
+            </div>
+            <button class="button4 w3-btn w3-card-2 w3-margin w3-padding w3-white">Back</button>
+            </div>
+    </div>
+
+
+    </div>
+
+    <div class="addTop"></div>
+
+    <div class="footer w3-blue-gray w3-padding-small w3-center">
+        <p><b>Social Media</b></p>
+        <div class="w3-cell-row w3-margin-bottom">
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.facebook.com/ellis.raputri/"><img src="facebook logo.png"alt="facebook logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.instagram.com/ellisraputri/"><img src="instagram logo.png"alt="instagram logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://www.linkedin.com/in/ellis-raputri-826a78203/"><img src="linkedin logo.png"alt="linkedin logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://line.me/ti/p/lJ7KnGcx3U"><img src="line logo.png"alt="line logo" class="foot"/></a>
+        </figure>
+        <figure class="w3-container w3-cell w3-hover-opacity">
+            <a href="https://wa.me/62895385069010"><img src="whatsapp logo.png"alt="whatsapp logo" class="foot"/></a>
+        </figure>
+        </div>
+    </div>
+
+</body>
+</html>
